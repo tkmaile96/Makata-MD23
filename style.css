@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+ .Home,.mlee,.caro,.charm,.Gallery{
+    text-align: center;
+    text-transform: uppercase;
+    color: bisque;
+    padding: 42px;
+    border-bottom: 5px solid white;
+    color: white;
+    background-size: 100% 50%;
+} 
+.squad,.girls{
+    direction: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-inline: 20px 10px;
+    margin-top: 10px;
+}
+.squad img{
+    width: 70%;
+    max-width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+.girls img{
+    width: 70%;
+    max-width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+header a{
+    color:blue;
+    border: 2px solid whitesmoke;
+    border-color: white;
+    background-color: white;
+    border-radius: 24px;
+}
+header a,.link:hover{
+    color:goldenrod;
+}
+footer{
+    padding: 42px;
+    border-bottom: 5px solid white;
+    color: white;
+    background-color: rgb(15, 126, 5);
+    margin-top: 20px;
+}
+.charmaine img{
+    width: 70%;
+    max-width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+    
+.charmaine{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.charmaine .caroline footer{
+    padding: 42px;
+    border-bottom: 5px solid white;
+    color: white;
+    background-color: rgb(15, 126, 5);
+    margin-top: 20px; 
+}
+.shantel{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.shantel img{
+    width: 70%;
+    max-width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+.Caroline{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.Caroline img{
+    width: 70%;
+    max-width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+img{
+    margin-top: 10px;
+}
+@media only screen and (max-width:60em){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+header{
+    background-size: 100% 50%;
+    background-position: fixed;
+}
+}
+.Gallery{
+    background-color: rgb(15, 126, 5);
+}
+
+.Home,.caro,.charm,.mlee{
+    background-color: rgb(15, 126, 5); 
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid green;
+    object-fit: cover;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-decoration: double;
+    background-color: green;
+    color: #fff;
+    border-radius: 24px;
+}
+h3, p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: goldenrod;
+}
+a{
+    background-color:
+}
+
+
